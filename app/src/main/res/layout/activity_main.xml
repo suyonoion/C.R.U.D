@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabelrow"
+        android:background="#c4fffa"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:layout_weight="1"
+            android:text="ID"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#010dff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/npm"
+            android:layout_weight="1"
+            android:text="NPM"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#010dff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_weight="1"
+            android:text="NAMA"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#010dff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jurusan"
+            android:layout_weight="1"
+            android:text="JURUSAN"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textColor="#010dff" />
+    </TableRow>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:id="@+id/respon_koneksi"
+            android:layout_margin="16dp"
+            android:textColor="#ff0000"
+            android:gravity="center" />
+
+</LinearLayout>

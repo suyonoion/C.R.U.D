@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blogspot.mykodetutorial.crud">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InfoLengkap"
+            android:icon="@drawable/ic_info"
+            android:label="Details"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TambahData"
+            android:icon="@drawable/ic_add_white"
+            android:label="Tambah Data Mahasiswa"
+            android:parentActivityName=".MainActivity"
+            />
+    </application>
+
+</manifest>

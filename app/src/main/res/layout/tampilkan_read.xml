@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/id"
+            android:layout_weight="1"
+            android:text="1"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/npm"
+            android:layout_weight="1"
+            android:text="001"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/name"
+            android:layout_weight="1"
+            android:text="Ahmad"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/jurusan"
+            android:layout_weight="1"
+            android:text="RPL"
+            android:background="@drawable/garis_tabel"
+            android:paddingLeft="5dp" />
+    </TableRow>
+
+</LinearLayout>

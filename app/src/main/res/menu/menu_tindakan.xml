@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:title="Refresh"
+        android:alphabeticShortcut="r"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tambah_data"
+        android:orderInCategory="2"
+        android:title="Tambah"
+        android:alphabeticShortcut="t"
+        android:icon="@drawable/ic_add_white"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/keluar"
+        android:title="Keluar"
+        android:alphabeticShortcut="k"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_exit_white"
+        app:showAsAction="always"/>
+
+</menu>
